@@ -13,21 +13,6 @@ This is ASOFTAKE ID Engine - a high-performance distributed ID generator library
 </dependency>
 ```
 
-### Build Commands
-```bash
-# Clean and compile
-mvn clean compile
-
-# Package JAR
-mvn clean package
-
-# Full build with all artifacts (docs + sources)
-mvn clean package source:jar javadoc:jar
-
-# Use Maven wrapper if needed
-./mvnw clean package
-```
-
 ### Quality Checks
 The project relies on Java 24's compiler checks and modern language features for code quality. No formal linting tools are configured.
 
@@ -52,14 +37,6 @@ The project relies on Java 24's compiler checks and modern language features for
 - **Multi-database** support (MySQL, PostgreSQL, Oracle)
 
 ## Configuration Patterns
-
-### Manual Configuration
-```java
-var config = GeneratorConfig.snowflake(workerId, dataCenterId)
-    .withRetry(3, 10L)
-    .withSecurity(Set.of("com.yourpackage"));
-var generator = GeneratorFactory.create(config);
-```
 
 ### Spring Boot Integration
 ```yaml
