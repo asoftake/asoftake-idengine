@@ -9,7 +9,7 @@ This is ASOFTAKE ID Engine - a high-performance distributed ID generator library
 <dependency>
     <groupId>uk.asoftake</groupId>
     <artifactId>asoftake-idengine</artifactId>
-    <version>2.0.1</version>
+    <version>2.0.2</version>
 </dependency>
 ```
 
