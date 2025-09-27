@@ -1,6 +1,6 @@
 ## Project Overview
 
-This is ASOFTAKE ID Engine - a high-performance distributed ID generator library built with Java 24. The codebase leverages cutting-edge JDK features including sealed interfaces, pattern matching, virtual threads, and records.
+This is ASOFTAKE ID Engine - a high-performance distributed ID generator library built with Java 25. The codebase leverages cutting-edge JDK features including sealed interfaces, pattern matching, virtual threads, and records.
 
 ## Development Commands
 
@@ -9,12 +9,12 @@ This is ASOFTAKE ID Engine - a high-performance distributed ID generator library
 <dependency>
     <groupId>uk.asoftake</groupId>
     <artifactId>asoftake-idengine</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 </dependency>
 ```
 
 ### Quality Checks
-The project relies on Java 24's compiler checks and modern language features for code quality. No formal linting tools are configured.
+The project relies on Java 25 compiler checks and modern language features for code quality. No formal linting tools are configured.
 
 ## Architecture Overview
 
